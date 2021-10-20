@@ -4,8 +4,8 @@ let results = []
 let netID = "kmm76921"
 let pw = "13509BryantAve"
 
+customerSelect.onclick=function(){
 
-customerSelect.onshow=function(){
  
         
     query = "SELECT * FROM customer"
@@ -26,3 +26,6 @@ customerSelect.onshow=function(){
     } else  
         lblMessage.value = "Error code: " + req.status
 }
+
+  
+
