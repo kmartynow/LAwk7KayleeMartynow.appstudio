@@ -1,3 +1,5 @@
+/*
+
 let query = ""
 let req = {}
 let results = []
@@ -19,7 +21,7 @@ customerSelect.onclick=function(){
         else {        
            let message = ""
            for (i = 0; i < results.length; i++)
-               message = message + results[i][1] + "\n"
+               message = message + results[i][1] + '\n'
            txtaCustomers.value = message
         } 
 
@@ -27,5 +29,5 @@ customerSelect.onclick=function(){
         lblMessage.value = "Error code: " + req.status
 }
 
-  
+  */
 
